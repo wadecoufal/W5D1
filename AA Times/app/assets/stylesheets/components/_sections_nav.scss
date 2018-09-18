@@ -1,0 +1,15 @@
+.section-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  font-family: $sans-serif;
+}
+
+.section-nav li {
+  padding: 10px;
+}
+
+.section-nav li:hover {
+  background-color: $lightest-gray;
+}
+

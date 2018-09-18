@@ -34,6 +34,9 @@ button:hover {
 /*
 	Header Rules
 */
+a:hover {
+  text-decoration: underline;
+}
 
 hr {
 	border: 0;
@@ -49,4 +52,12 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+#gear-dropdown-btn {
+  position: relative;
 }
